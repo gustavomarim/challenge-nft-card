@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github-Repository](https://github.com/gustavomarim/challenge-nft-card)
-- Live Site URL: [Github-Pages](https://gustavomarim.github.io/challenge-nft-card/)
+- Solution URL: [Github-Repository](https://github.com/gustavomarim/nft-preview-card-component-css)
+- Live Site URL: [Github-Pages](https://gustavomarim.github.io/nft-preview-card-component-css/)
 
 ## My process
 
