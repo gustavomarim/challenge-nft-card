@@ -6,7 +6,10 @@
     height            : 700px;
     border-radius     : 15px;
     margin-top        : 150px;
+    margin-bottom     : 80px;
     background-color  : var(--very-dark-blue-card-bg);
+    box-shadow        : 0 0 25px var(--very-dark-blue-main-bg), 0 0 25px var(--very-dark-blue-card-bg);
+
 }
 
 .card-img {
@@ -21,27 +24,16 @@
     cursor       : pointer;
 }
 
-img:hover:after {
-    content   : url("../../img/icon-view.svg");
-    background: #00f;
-    width     : 200px;
-    height    : 200px;
-}
-
 .card-img:hover:after {
-    content : url("../../img/icon-view.svg");
-    color   : #f00;
-    position: absolute;
-    top     : 5;
-}
-
-.card-img:hover:after {
-    grid-area : 1/1;
-    place-self: center;
-    margin-top: 20px;
-    background: var(--cor-12);
-    display   : inline-block;
-    padding   : 8px 16px 8px 8px;
+    content      : url("../../img/icon-view.svg");
+    position     : absolute;
+    grid-area    : 1/1;
+    justify-self : left;
+    background   : var(--color-cyan);
+    opacity      : 0.5;
+    display      : inline-block;
+    padding      : 40%;
+    border-radius: 15px;
 }
 
 .card-content {
