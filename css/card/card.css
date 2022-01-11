@@ -10,25 +10,39 @@
 }
 
 .card-img {
-    padding: 25px;
-    /* display: grid; */
+    padding : 25px;
+    position: relative;
+    display : grid;
 }
 
- .card-img img {
-    /* grid-area    : 1/-1; */
+.card-img img {
+    grid-area    : 1/-1;
     border-radius: 15px;
     cursor       : pointer;
 }
-/*
-#icone-view {
+
+img:hover:after {
+    content   : url("../../img/icon-view.svg");
+    background: #00f;
+    width     : 200px;
+    height    : 200px;
+}
+
+.card-img:hover:after {
+    content : url("../../img/icon-view.svg");
+    color   : #f00;
+    position: absolute;
+    top     : 5;
+}
+
+.card-img:hover:after {
     grid-area : 1/1;
     place-self: center;
     margin-top: 20px;
     background: var(--cor-12);
     display   : inline-block;
     padding   : 8px 16px 8px 8px;
-} */
-
+}
 
 .card-content {
     padding: 0 30px 30px 30px;
