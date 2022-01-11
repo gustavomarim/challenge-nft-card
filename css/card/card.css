@@ -7,18 +7,21 @@
     border-radius     : 15px;
     margin-top        : 150px;
     background-color  : var(--very-dark-blue-card-bg);
+    box-shadow        : 0 0 25px var(--very-dark-blue-main-bg), 0 0 25px var(--very-dark-blue-card-bg);
+
 }
 
 .card-img {
-    padding: 25px;
+    padding   : 25px;
     /* display: grid; */
 }
 
- .card-img img {
+.card-img img {
     /* grid-area    : 1/-1; */
     border-radius: 15px;
     cursor       : pointer;
 }
+
 /*
 #icone-view {
     grid-area : 1/1;
